@@ -1,0 +1,43 @@
+.Todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.Todo-title {
+    margin: 12px;
+    font-size: xxx-large;
+}
+
+.Todo-items {
+    font-size: x-large;
+    margin-inline-end: 100px;
+}
+
+.Todo-items-status {
+    text-decoration-line: line-through;
+}
+
+.Todo-form {
+    height: 40px;
+    padding: 10px;
+
+}
+
+#Todo-form-input {
+    height: 30px;
+    margin: 5px;
+}
+
+#Todo-form-submit {
+    height: 30px;
+    margin: 3px;
+}
+
+.Todo-delete-button{
+    margin-left: 30px;
+    color: red;
+}
